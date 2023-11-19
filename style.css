@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,8 @@ body {
   background: url("https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/aef35354-60ff-4cc2-ae88-c9d4129f1f1a/BR-pt-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg");
   object-fit: cover;
   box-shadow: 2px 4px 6px black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 div img {
@@ -23,26 +27,38 @@ section {
   align-items: center;
 }
 h1 {
+  font-size: 32px;
   color: #fff;
+  margin: 40px 0px 25px 65px;
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 
   width: 430px;
 }
 
-.email-password {
+.form-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
-.email-password input {
+.form-content input,
+button {
   width: 300px;
   height: 45px;
   padding-left: 15px;
   border-radius: 5px;
   border: none;
+}
+
+button {
+  font-size: 18px;
+  color: #fff;
+  background-color: rgb(199, 52, 52);
+  margin-top: 30px;
+  cursor: pointer;
 }
