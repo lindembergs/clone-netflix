@@ -10,3 +10,10 @@ body {
   object-fit: cover;
   box-shadow: 2px 4px 6px black;
 }
+
+div img {
+  width: 210px;
+  height: 130px;
+  margin-left: 30px;
+  margin-top: -20px;
+}
