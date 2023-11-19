@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/aef35354-60ff-4cc2-ae88-c9d4129f1f1a/BR-pt-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  object-fit: cover;
+}
