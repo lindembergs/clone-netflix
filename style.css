@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-a {
+a,
+span {
   color: #fff;
   text-decoration: none;
 }
@@ -39,6 +40,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.8);
 
   width: 430px;
+  height: 600px;
 }
 
 .form-content {
@@ -81,4 +83,27 @@ button {
   display: flex;
   gap: 2px;
   margin-left: 7px;
+}
+.need-help {
+  display: flex;
+  gap: 2px;
+  margin: 70px 0px 25px 65px;
+}
+
+h4 {
+  color: gray;
+  font-weight: 100;
+}
+
+p {
+  color: #fff;
+  font-size: 13px;
+}
+
+.text-protection {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 320px;
+  margin-left: 58px;
 }
