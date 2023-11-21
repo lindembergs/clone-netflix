@@ -50,7 +50,7 @@ h1 {
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.7);
 
   width: 450px;
   height: 620px;
