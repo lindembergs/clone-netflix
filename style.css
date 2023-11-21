@@ -46,7 +46,7 @@ section {
 h1 {
   font-size: 32px;
   color: #fff;
-  margin: 40px 0px 25px 65px;
+  margin: 40px 0px 25px 75px;
 }
 
 .container {
@@ -55,7 +55,7 @@ h1 {
   width: 450px;
   height: 620px;
   margin-top: -30px;
-  margin-left: -60px;
+  margin-left: -65px;
   z-index: 2;
 }
 
@@ -75,12 +75,13 @@ button {
   border-radius: 5px;
   border: none;
 }
-input {
-  color: rgb(155, 152, 152);
+input#my-checkbox {
+  width: 46px;
 }
 label {
   cursor: pointer;
   margin-left: -5px;
+  color: rgb(206, 201, 201);
 }
 
 button {
@@ -121,6 +122,11 @@ input[type="checkbox"] {
 h4 {
   color: gray;
   font-weight: 100;
+  margin-left: 10px;
+}
+#tag-a-help {
+  color: rgb(206, 201, 201);
+  font-weight: 200;
 }
 
 p {
@@ -138,6 +144,13 @@ p {
 
 .text-protection p {
   color: gray;
-  font-weight: 200;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 13px;
+  margin-left: 15px;
+}
+.text-protection span {
+  color: gray;
+  font-weight: 300;
+  font-size: 13px;
+  margin-left: -50px;
 }
