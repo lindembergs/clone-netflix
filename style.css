@@ -50,8 +50,8 @@ h1 {
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.7);
-
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
   width: 450px;
   height: 620px;
   margin-top: -30px;
@@ -140,6 +140,7 @@ p {
   text-align: center;
   width: 320px;
   margin-left: 58px;
+  margin-top: -10px;
 }
 
 .text-protection p {
@@ -153,4 +154,20 @@ p {
   font-weight: 300;
   font-size: 13px;
   margin-left: -50px;
+}
+
+@media ((min-width: 375px) and (max-width: 955px)) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    width: 400px;
+    height: 620px;
+    margin-top: -30px;
+    margin-left: -65px;
+
+    z-index: 2;
+  }
 }
