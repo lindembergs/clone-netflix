@@ -78,6 +78,9 @@ button {
 input#my-checkbox {
   width: 46px;
 }
+input {
+  background-color: rgb(51, 50, 50);
+}
 label {
   cursor: pointer;
   margin-left: -5px;
