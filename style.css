@@ -46,7 +46,7 @@ section {
 h1 {
   font-size: 32px;
   color: #fff;
-  margin: 40px 0px 25px 75px;
+  margin: 55px 0px 18px 75px;
 }
 
 .container {
@@ -80,6 +80,11 @@ input#my-checkbox {
 }
 input {
   background-color: rgb(51, 50, 50);
+}
+input::placeholder {
+  color: #bebaba88;
+  font-size: 14px;
+  padding-left: 5px;
 }
 label {
   cursor: pointer;
