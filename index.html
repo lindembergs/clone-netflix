@@ -9,7 +9,7 @@
   <body>
     <header>
       <div>
-        <img class="logo" src="netflix-logo.png" alt="logo da netflex" />
+        <img class="logo" src="netflix-logo.png" alt="logo da netflix" />
       </div>
     </header>
     <main>
@@ -18,16 +18,17 @@
           <h1>Entrar</h1>
           <form action="">
             <div class="form-content">
-              <label for="email"></label>
+              <!-- <label for="email"></label>  só faz sentido caso tenha info na tela -->
               <input
                 type="email"
                 placeholder="Email ou número de telefone"
                 name="email"
               />
-              <label for="password"></label>
+              <!-- <label for="password"></label>só faz sentido caso tenha info na tela -->
               <input type="password" placeholder="Senha" />
               <button type="submit">Entrar</button>
             </div>
+
             <div class="check-help">
               <div class="check-content">
                 <input type="checkbox" id="my-checkbox" />
@@ -38,13 +39,13 @@
             </div>
           </form>
           <div class="need-help">
-            <h4>Novo por aqui? <span>Assine agora.</span></h4>
+            <p>Novo por aqui? <a>Assine agora.</a></p>
           </div>
           <div class="text-protection">
             <p>
               Esta página é protegida pelo Google reCAPTCHA para
               <span>garantir que você não é um robô.</span>
-              <a style="color: blue" href="#">Saiba mais.</a>
+              <a href="#">Saiba mais.</a>
             </p>
           </div>
         </div>

@@ -42,6 +42,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 h1 {
   font-size: 32px;
@@ -52,10 +53,8 @@ h1 {
 .container {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 4px;
-  width: 450px;
-  height: 650px;
+  height: 550px;
   margin-top: -30px;
-  margin-left: -65px;
   z-index: 2;
 }
 
@@ -103,18 +102,20 @@ button {
 .check-help {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-
+  justify-content: space-between;
   color: #fff;
-  width: 395px;
+  width: 320px;
   font-size: 13px;
-  margin: 15px;
+  margin-top: 15px;
 }
 
 .check-content {
   display: flex;
   gap: 2px;
   margin-left: 15px;
+}
+.check-help .check-content a {
+  margin-left: 2rem;
 }
 input[type="checkbox"] {
   width: 60px;
@@ -127,7 +128,7 @@ input[type="checkbox"] {
   margin: 70px 0px 25px 65px;
 }
 
-h4 {
+p {
   color: gray;
   font-weight: 100;
   margin-left: 8px;
@@ -157,25 +158,27 @@ p {
   font-size: 13px;
   margin-left: 15px;
 }
-.text-protection span {
+.text-protection p a {
+  color: blue;
+}
+.text-protection p {
   color: gray;
   font-weight: 300;
   font-size: 13px;
   margin-left: -50px;
 }
-
-@media ((min-width: 375px) and (max-width: 955px)) {
+@media ((max-width: 450px)) {
+  html,
+  body {
+    font-size: 12px;
+  }
   .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 4px;
-    width: 400px;
-    height: 620px;
-    margin-top: -30px;
-    margin-left: -65px;
+    width: 350px;
+  }
+}
 
-    z-index: 2;
+@media ((min-width: 451px)) {
+  .container {
+    max-width: 350px;
   }
 }
